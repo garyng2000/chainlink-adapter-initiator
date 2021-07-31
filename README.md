@@ -15,6 +15,6 @@ in order to enable the chainlink async mode for external adapter, the node must 
 
 BRIDGE_RESPONSE_URL=http://localhost:6688
 
-the documentations for chainlink(as node operator/developer), though it does not cover everything(read document as well as the source to get the full picture of what is needed)
+the documentations for chainlink(as node operator/developer), though it does not cover everything(read this document as well as the source to get the full picture of what is needed)
 
 https://docs.chain.link/chainlink-nodes/
