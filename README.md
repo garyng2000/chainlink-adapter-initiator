@@ -10,3 +10,7 @@ so basically a documentation in code that can be tested.
 the initiator is created as below(matching the sample job.json)
 
 FEATURE_EXTERNAL_INITIATORS=true chainlink initiators geth5watch http://localhost:3002/jobs
+
+the documentations for chainlink(as node operator/developer)
+
+https://docs.chain.link/chainlink-nodes/
