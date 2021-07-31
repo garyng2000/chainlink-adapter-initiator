@@ -7,10 +7,14 @@ This is a single index.js file that show case the minimal(but essential function
 
 so basically a documentation in code that can be tested.
 
-the initiator is created as below(matching the sample job.json)
+the initiator is created as below(matching the sample job.json), this command requires login first via 'chainlink admin login'(and use the same credential for the web ui)
 
 FEATURE_EXTERNAL_INITIATORS=true chainlink initiators geth5watch http://localhost:3002/jobs
 
-the documentations for chainlink(as node operator/developer)
+in order to enable the chainlink async mode for external adapter, the node must be running with the following environment variable defined, which points to the chainlink node endpoint(change it if it is behind proxy)
+
+BRIDGE_RESPONSE_URL=http://localhost:6688
+
+the documentations for chainlink(as node operator/developer), though it does not cover everything(read document as well as the source to get the full picture of what is needed)
 
 https://docs.chain.link/chainlink-nodes/
