@@ -1,0 +1,16 @@
+{
+  "name": "external initiator demo",
+  "initiators": [
+    {
+      "type": "external",
+      "params": {
+        "name": "geth5watcher"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "type": "abc"
+    }
+  ]
+}
